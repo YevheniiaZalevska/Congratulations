@@ -1,0 +1,24 @@
+#popup {
+    position: absolute;
+    background-color: #b04a4a;
+    padding: 10px;
+    border: 1px solid #ccc;
+    top: 50px;
+    left: 50px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    width: 300px;
+    z-index: 1000;
+    color: black;
+    font-size: 16px;
+    margin: 0;
+}
+
+.show {
+    opacity: 5;
+}
+
+.hidden {
+    display: none;
+}
+
