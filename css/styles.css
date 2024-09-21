@@ -1,11 +1,11 @@
 #popup {
     position: absolute;
-    background-color: #b04a4a;
+    background-color: black;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     top: 50px;
     left: 50px;
-    opacity: 0;
+    /* opacity: 0; */
     transition: opacity 0.5s ease;
     width: 300px;
     z-index: 1000;
@@ -15,7 +15,7 @@
 }
 
 .show {
-    opacity: 5;
+    opacity: 1;
 }
 
 .hidden {
