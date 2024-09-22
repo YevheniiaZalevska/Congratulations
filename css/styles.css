@@ -1,17 +1,23 @@
+
 #popup {
     position: absolute;
-    background-color: black;
     padding: 10px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     top: 50px;
-    left: 50px;
+    /* left: 50px; */
     /* opacity: 0; */
     transition: opacity 0.5s ease;
     width: 300px;
     z-index: 1000;
-    color: black;
+    color: rgb(186, 112, 194);
     font-size: 16px;
     margin: 0;
+    font-weight: 400;
+    margin-top: 70px;
+    text-align: center;
+    font-family: 'Katibeh', cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .show {
@@ -22,3 +28,32 @@
     display: none;
 }
 
+.button {
+    background: linear-gradient(to right, rgb(186, 112, 194), #3b2d69);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    justify-content: center;
+    padding: 16px 100px;
+    border-color: aliceblue;
+    box-shadow: 0px 6px 8px rgba(6, 6, 6, 0.2);
+}
+
+.textButton {
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    max-width: auto;
+    min-height: auto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+.section1 {
+    margin-top: 50px;
+}
